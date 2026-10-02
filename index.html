@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos Mais Vendidos - Tabela Simples</title>
+    <!-- Importando Tailwind CSS para um design limpo e responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-800 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-2xl font-semibold text-slate-900 mb-6 text-center">Jogos Mais Vendidos (Recentes)</h1>
+        
+        <div class="overflow-x-auto border border-slate-200 rounded-lg shadow-sm">
+            <table class="w-full text-left border-collapse text-sm">
+                <thead>
+                    <tr class="bg-slate-50 border-b border-slate-200 text-slate-600 font-medium">
+                        <th class="py-3 px-4 text-center w-16">Posição</th>
+                        <th class="py-3 px-4">Jogo</th>
+                        <th class="py-3 px-4">Plataforma</th>
+                        <th class="py-3 px-4">Desenvolvedora</th>
+                        <th class="py-3 px-4 text-right">Unidades Vendidas</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-200">
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="py-3 px-4 text-center font-medium text-slate-700">1</td>
+                        <td class="py-3 px-4 font-semibold text-slate-900">Grand Theft Auto VI</td>
+                        <td class="py-3 px-4 text-slate-600">PlayStation, Xbox</td>
+                        <td class="py-3 px-4 text-slate-600">Rockstar Games</td>
+                        <td class="py-3 px-4 text-right font-medium text-slate-900">~55 Milhões</td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="py-3 px-4 text-center font-medium text-slate-700">2</td>
+                        <td class="py-3 px-4 font-semibold text-slate-900">Minecraft</td>
+                        <td class="py-3 px-4 text-slate-600">PC, Console, Mobile</td>
+                        <td class="py-3 px-4 text-slate-600">Mojang Studios</td>
+                        <td class="py-3 px-4 text-right font-medium text-slate-900">~300 Milhões</td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="py-3 px-4 text-center font-medium text-slate-700">3</td>
+                        <td class="py-3 px-4 font-semibold text-slate-900">Elden Ring: Shadow of the Erdtree</td>
+                        <td class="py-3 px-4 text-slate-600">PC, PlayStation, Xbox</td>
+                        <td class="py-3 px-4 text-slate-600">FromSoftware</td>
+                        <td class="py-3 px-4 text-right font-medium text-slate-900">~28 Milhões</td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="py-3 px-4 text-center font-medium text-slate-700">4</td>
+                        <td class="py-3 px-4 font-semibold text-slate-900">The Legend of Zelda: Tears of the Kingdom</td>
+                        <td class="py-3 px-4 text-slate-600">Nintendo Switch</td>
+                        <td class="py-3 px-4 text-slate-600">Nintendo EPD</td>
+                        <td class="py-3 px-4 text-right font-medium text-slate-900">~21 Milhões</td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="py-3 px-4 text-center font-medium text-slate-700">5</td>
+                        <td class="py-3 px-4 font-semibold text-slate-900">Helldivers 2</td>
+                        <td class="py-3 px-4 text-slate-600">PC, PlayStation</td>
+                        <td class="py-3 px-4 text-slate-600">Arrowhead Game Studios</td>
+                        <td class="py-3 px-4 text-right font-medium text-slate-900">~15 Milhões</td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="py-3 px-4 text-center font-medium text-slate-700">6</td>
+                        <td class="py-3 px-4 font-semibold text-slate-900">Baldur's Gate 3</td>
+                        <td class="py-3 px-4 text-slate-600">PC, PlayStation, Xbox</td>
+                        <td class="py-3 px-4 text-slate-600">Larian Studios</td>
+                        <td class="py-3 px-4 text-right font-medium text-slate-900">~15 Milhões</td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="py-3 px-4 text-center font-medium text-slate-700">7</td>
+                        <td class="py-3 px-4 font-semibold text-slate-900">Palworld</td>
+                        <td class="py-3 px-4 text-slate-600">PC, Xbox</td>
+                        <td class="py-3 px-4 text-slate-600">Pocketpair</td>
+                        <td class="py-3 px-4 text-right font-medium text-slate-900">~25 Milhões</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
